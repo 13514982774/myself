@@ -1,5 +1,5 @@
 server:
-    port: 80
+    port: 8081
 
 #mysql
 spring:
@@ -13,16 +13,12 @@ spring:
 mybatis-plus:
     global-config:
         db-config:
-            #????
             id-type: auto
             field-strategy: not_empty
-            #???????
             column-underline: true
-            #??????
             logic-delete-value: 1
             logic-not-delete-value: 0
             db-type: mysql
-            #????????????????
             table-prefix: process_
         refresh: false
     configuration:
