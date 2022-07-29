@@ -24,5 +24,4 @@ mybatis-plus:
     configuration:
         map-underscore-to-camel-case: true
         cache-enabled: false
-        #???sql??
         log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
